@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 .App {
+  font-family: 'Bebas Neue', cursive;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
@@ -14,9 +15,15 @@
   height: 100vh;
 }
 .square{
+  color: white;
   align-items: center;
   text-align: center;
   font-size: 20em;
   background-color: #0000FF;
   flex: 1;
+}
+.start{
+  position: absolute;
+  z-index: 99;
+  float: center;
 }

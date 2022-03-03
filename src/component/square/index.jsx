@@ -1,7 +1,9 @@
-const Square = () => {
+
+const Square = ({start, time, handleStart}) => {
+
   return (
-    <div className="square">
-      02
+    <div className="square" onClick={() => handleStart(time)}>
+      {start}
     </div>
   )
 }
